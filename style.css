@@ -98,9 +98,17 @@ textarea{
   outline: none;
   border-radius: 3px;
   padding: 10px;
+  font-weight: 500;
+  color: #404040;
   font-family: arial, sans-serif;
+  line-height: 150%;
   border: 2px solid #9f9d9d;
   background-color: #EEEFF0;
+}
+
+textarea::placeholder{
+  font-weight: 400;
+  font-size: 1.1em;
 }
 
   #form-div5{
@@ -149,10 +157,15 @@ select{
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 690px) {
   button{
     margin: auto;
   }
+
+  textarea::placeholder{
+    font-size: 1em;
+  }
+}
 
 @media screen and (max-width: 570px) {
   .container{
@@ -175,5 +188,25 @@ select{
 
   select{
     width: 70%;
+  }
+
+  input{
+    font-size: 13pt;
+  }
+
+  input::placeholder{
+    font-size: .9em;
+  }
+
+  label{
+    font-size: 1.5em;
+  }
+
+  h2{
+    font-size: 1.4em;
+  }
+
+  #form-div4 > h2{
+    font-size: 1.5em;
   }
 } 
