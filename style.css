@@ -118,24 +118,28 @@ textarea::placeholder{
   }
 
 button{
-  padding: 10px 100px;
+  padding: 5px 80px;
   background-color: #F79F3B;
   font-family: "Noto Sans Mono";
   border: none;
   border-radius: 5px;
-  font-size: 1.7em;
+  font-size: 1.8em;
   font-weight: 700;
   color: #ffffff;
   cursor: pointer
 }
 
 select{
-  width: 40%;
+  width: 45%;
   font-size: 1.1em;
   font-weight: 500;
   padding: 3px 0px 3px 10px;
   margin-top: 10px;
   outline: none;
+}
+
+select option{
+  font: 500 1em arial, sans-serif;
 }
 
 #form-div4 > h2{
